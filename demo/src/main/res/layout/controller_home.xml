@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/home_root"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+    <LinearLayout
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+        <Button
+          android:id="@+id/classic"
+          android:text="Classic Alert Dialog"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+
+        <Button
+          android:id="@+id/progress"
+          android:text="Custom Progress Dialog"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+    </LinearLayout>
+</FrameLayout>

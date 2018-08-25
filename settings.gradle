@@ -1,1 +1,1 @@
-include ':conductor-dialog'
+include ':conductor-dialog', ':demo'

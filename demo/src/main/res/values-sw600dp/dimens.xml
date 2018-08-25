@@ -1,0 +1,5 @@
+<resources>
+
+  <dimen name="dialog_min_width">450dp</dimen>
+
+</resources>
