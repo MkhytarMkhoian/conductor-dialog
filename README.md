@@ -1,6 +1,11 @@
 # ConductorDialog
 Support Dialog for Conductor library
 
+## Installation
+```
+implementation 'com.github.mkhytarmkhoian:conductor-dialog:1.0.0'
+```
+
 ## License
 ```
 Copyright 2018 Mkhytar Mkhoian, Inc.
