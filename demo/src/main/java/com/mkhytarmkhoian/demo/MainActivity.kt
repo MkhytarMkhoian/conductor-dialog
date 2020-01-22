@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Mkhytar Mkhoian, Inc.
+ * Copyright 2020 Lalafo.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,10 +17,7 @@
 package com.mkhytarmkhoian.demo
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.view.View
-import android.view.ViewGroup
-
+import androidx.appcompat.app.AppCompatActivity
 import com.bluelinelabs.conductor.Conductor
 import com.bluelinelabs.conductor.Router
 import com.bluelinelabs.conductor.RouterTransaction

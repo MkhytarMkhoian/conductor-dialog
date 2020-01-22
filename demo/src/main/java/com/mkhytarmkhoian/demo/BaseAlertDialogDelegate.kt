@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Mkhytar Mkhoian, Inc.
+ * Copyright 2020 Lalafo.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,6 +27,7 @@ import android.view.Window
 import android.view.WindowManager
 import com.mkhytarmkhoian.conductor.dialog.DialogController
 import com.mkhytarmkhoian.conductor.dialog.DialogController.STYLE_NORMAL
+import kotlin.math.min
 
 class BaseAlertDialogDelegate {
 
@@ -54,7 +55,7 @@ class BaseAlertDialogDelegate {
             context.dpToPx(360f)
         }
 
-        maxWidth = Math.min(width, calculatedWidth) + backgroundPaddings.left + backgroundPaddings.right
+        maxWidth = min(width, calculatedWidth) + backgroundPaddings.left + backgroundPaddings.right
     }
 
     fun onCreateDialog(dialog: Dialog): Dialog {

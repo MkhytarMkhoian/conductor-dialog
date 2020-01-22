@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 Mkhytar Mkhoian, Inc.
+ * Copyright 2020 Lalafo.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,8 +19,8 @@ package com.mkhytarmkhoian.demo
 import android.content.Context
 import android.graphics.Point
 import android.graphics.drawable.Drawable
-import android.support.v4.content.ContextCompat
-import android.support.v7.content.res.AppCompatResources
+import androidx.core.content.ContextCompat
+import androidx.appcompat.content.res.AppCompatResources
 import android.view.WindowManager
 
 fun Context.getDrawableCompat(resId: Int): Drawable {
