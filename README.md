@@ -2,10 +2,27 @@
 Support Dialog for Conductor library
 
 ## Installation
-```
-implementation 'com.github.mkhytarmkhoian:conductor-dialog:1.1.0'
+Gradle:
+```gradle
+repositories {
+  mavenCentral()
+  jcenter()
+}
+
+dependencies {
+  implementation 'com.github.mkhytarmkhoian:conductor-dialog:1.1.0'
+}
 ```
 
+Or Maven:
+```xml
+<dependency>
+  <groupId>com.github.mkhytarmkhoian</groupId>
+  <artifactId>conductor-dialog</artifactId>
+  <version>1.1.0</version>
+  <type>pom</type>
+</dependency>
+```
 ## License
 ```
 Copyright 2020 Lalafo.
